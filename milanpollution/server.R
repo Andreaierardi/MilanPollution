@@ -11,9 +11,7 @@ library(shiny)
 
 pollution <- function()
 {
-    shinyApp(ui = shinyUI, server = shinyServer)
-    shiny::runApp(appDir, display.mode = "normal")
-
+    runApp("milanpollution")
 }
 
 installpack <- function()
