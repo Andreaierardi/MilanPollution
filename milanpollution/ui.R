@@ -7,6 +7,21 @@
 #    http://shiny.rstudio.com/
 #
 
+
+loadlibreries <- function()
+{
+  require(shiny)
+  require(ggplot2)
+  require(forecast)
+  require(xts)
+  require(ckanr)
+  require(httr)
+  require(jsonlite)
+  require(tidyverse)
+  require(plotly)
+  require(TSplotly)
+}
+
 library(shiny)
 loadlibreries()
 
