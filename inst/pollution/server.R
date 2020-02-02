@@ -1,4 +1,5 @@
 
+
 #=== Shiny App Server ===
 
 
@@ -29,18 +30,17 @@ shinyServer(function(input, output) {
     {
       fit <- lm( poll$valore ~ poll$data, data = poll)
 
-        plotly::add_lines(x = ~poll$data, y = fitted(fit), name="regression", plotly::layout(title = paste('Value of ',inp, "per day of ", input$years),
+      plotly::add_lines(x = ~poll$data, y = fitted(fit), name="regression", plotly::layout(title = paste('Value of ',inp, "per day of ", input$years),
                                                                                            xaxis = list(title = 'Days'),
-                                                                                           yaxis = list (title = paste('Value of ',inp)),      plotly::plot_ly(x = poll$data, y = poll$valore, name ="values ",type = 'scatter',mode = 'line')
-) )
+                                                                                           yaxis = list (title = paste('Value of ',inp)), plotly::plot_ly(x = poll$data, y = poll$valore, name ="values ",type = 'scatter',mode = 'line')))
 
     }
 
     else
     {
-        plotly::layout(title = paste('Value of ',inp, "per day of ", input$years),
-                       xaxis = list(title = 'Days'),
-                       yaxis = list (title = paste('Value of ',inp)),      plotly::plot_ly(x = poll$data, y = poll$valore, name ="values ",type = 'scatter',mode = 'line'))
+      plotly::layout(title = paste('Value of ',inp, "per day of ", input$years),
+                     xaxis = list(title = 'Days'),
+                     yaxis = list (title = paste('Value of ',inp)),plotly::plot_ly(x = poll$data, y = poll$valore, name ="values ",type = 'scatter',mode = 'line'))
     }
   })
 
@@ -70,14 +70,13 @@ shinyServer(function(input, output) {
       couple =  checkdataset(input$yearstation,NULL,lis)
       df= couple[[1]]
       lis = couple[[2]]
-
-        plotly::layout(title = paste("Number of detected datas from each station - year:",input$yearstation),
-                       xaxis = list(title = "Station ID"),
-                       yaxis = list(title = "Data detected"), plotly::plot_ly(df,
-                                                                              x = df$station_id,
-                                                                              y = df$total_detected,
-                                                                              type = "bar",color =df$station_id
-                       ))
+      plotly::layout(title = paste("Number of detected datas from each station - year:",input$yearstation),
+                     xaxis = list(title = "Station ID"),
+                     yaxis = list(title = "Data detected"), plotly::plot_ly(df,
+                                                                            x = df$station_id,
+                                                                            y = df$total_detected,
+                                                                            type = "bar",color =df$station_id
+                     ))
 
     })
 

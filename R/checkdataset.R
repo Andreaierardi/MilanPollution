@@ -85,7 +85,7 @@ checkYears <- function(year,lis)
   return(lis)
 }
 
-#
+
 #' Clean dataset TS
 #'
 #' Clean the dataset for time series. It will delete the station_id, remove NA and convert the classes of the objects.

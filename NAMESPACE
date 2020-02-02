@@ -3,5 +3,3 @@
 export(checkdataset)
 export(pollution)
 export(restfullAPI)
-import(magrittr)
-importFrom(magrittr,"%>%")
