@@ -6,8 +6,8 @@
 <h2> Installation</h2>
 
 ```R
-# first install the R package "devtools" (.... OTHERS TO BE SPECIFIED) if not installed
-devtools::install_github('unimi-dse/01a62bb0')
+# first install the R package "devtools" if not installed
+devtools::install_github('Andreaierardi/R-project')
 ```
 
 <h2> Usage</h2>
