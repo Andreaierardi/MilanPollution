@@ -12,7 +12,7 @@
 #' @examples
 #' pollution()
 #' @export
-#' @importFrom magrittr "%>%"
+#' @importFrom magrittr "%>%" "%>%"
 
 
 
