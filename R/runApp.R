@@ -21,7 +21,6 @@ pollution <- function() {
   if (dir == "") {
     stop("Could not find pollution. Try re-installing `milanpollution`.", call. = FALSE)
   }
-  import::into("operators", "%>%", .from = magrittr)#
 
   shiny::runApp(dir, display.mode = "normal", launch.browser = T)
 }
