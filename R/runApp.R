@@ -12,9 +12,8 @@
 #' @examples
 #' pollution()
 #' @export
-#' @importFrom magrittr "%>%" "%>%"
-
-
+#' @import magrittr
+#' @importFrom magrittr %>%
 
 pollution <- function() {
   dir <- system.file("pollution", package = "milanpollution")
