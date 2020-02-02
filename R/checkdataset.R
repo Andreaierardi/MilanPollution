@@ -13,7 +13,7 @@
 #' \dontrun{
 #' checkdataset(year, pollutant, lis)
 #' }
-#' @importFrom dplyr %>%
+#' @importFrom magrittr %>%
 checkdataset <- function(year, pollutant = NULL, lis =NULL)
 {
 
