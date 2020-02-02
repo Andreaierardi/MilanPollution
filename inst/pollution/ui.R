@@ -1,4 +1,3 @@
-#' @importFrom magrittr "%>%"
 # Define UI for application
 shiny::shinyUI(fluidPage(
 
