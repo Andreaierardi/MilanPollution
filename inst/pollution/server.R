@@ -1,4 +1,3 @@
-import::into("operators", "%>%", .from = magrittr)#
 
 #=== Shiny App Server ===
 

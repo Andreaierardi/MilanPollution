@@ -1,4 +1,3 @@
-import::into("operators", "%>%", .from = magrittr)#
 
 # Define UI for application
 shiny::shinyUI(fluidPage(
