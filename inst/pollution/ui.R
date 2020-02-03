@@ -139,8 +139,10 @@ shiny::shinyUI(fluidPage(
                                           hr(),
 
                                           h2("Link"),
+                                          tags$i(class = "fab fa-linkedin fa-2x",style = "color: #0077b5"),
                                           a("LinkedIn", href="https://www.linkedin.com/in/andreaierardi/"),
                                           br(),
+                                          shiny::icon("github","fa-2x"),
                                           a("Github",href="https://github.com/Andreaierardi")
 
 

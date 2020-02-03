@@ -2,7 +2,6 @@
 #'
 #' Get the dataset from the Opendata website of the city of Milan using CRAN API.
 #' You can find the id of the dataset at this link \href{https://dati.comune.milano.it/dataset}{Opendata comune di Milano}. \cr
-#'
 #' At this link, you can find some dataset of common topic. Click on a specified csv dataset to get the id's,
 #' then at the bottom of the page you will see "Informazioni supplementari" (Additional information) section.
 #' In this table there is the field ID (not packege id or revision id). [PS. CKAN API only supports csv files]\cr\cr
