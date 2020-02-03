@@ -17,8 +17,12 @@ checkdataset(year, pollutant = NULL, lis = NULL)
 list
 }
 \description{
-Check whether and which datasetis already loaded, download and visualise it.
-If the dataset is loaded, then get that from an \code{hash}, if not loaded then call \code{\link{restfullAPI}} and upload the \code{hash} If pollutant is \code{NULL} then the function will get the time series dataset else the function will get the data detected from each station. It return a list contains the dataset cleaned and requested and a list containing the hash of the dataset already download to keep it in memory. PS. This only works with "Rilevazione qualità aria" dataset of openData website!
+Check whether and which datasetis already loaded, download and visualise it. \cr
+If the dataset is loaded, then get that from an \code{hash}, if not loaded then call \link{restfullAPI}
+and upload the \code{hash} If pollutant is \code{NULL} then the function will get the time series dataset
+else the function will get the data detected from each station. It return a list contains the dataset cleaned
+and requested and a list containing the hash of the dataset already download to keep it in memory.
+\cr PS. This only works with "Rilevazione qualita' aria" dataset of openData website!
 }
 \examples{
 \dontrun{
