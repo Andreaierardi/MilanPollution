@@ -1,0 +1,12 @@
+name: Milan-Pollution-Analysis
+title: Milan-Pollution-Analysis
+username:
+account: andreaierardi
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1752312
+bundleId: 2771892
+url: https://andreaierardi.shinyapps.io/Milan-Pollution-Analysis/
+when: 1580748767.81129
+asMultiple: FALSE
+asStatic: FALSE
