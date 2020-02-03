@@ -1,13 +1,17 @@
-# 01a62bb0
-
 <h1 align="center">Milan pollution Shiny App Package </h1>
 <p> The aim of this project is to analysise the datas regarding pollution in Milan from the website of the Comune di Milano. In particular, the study is focused on the different pollutants detected during the years from ARPA stations. 
+  </p> 
 <br>
+  
+ <h1> ShinyApp.io    </h1>
+<p>   <a href= "https://andreaierardi.shinyapps.io/Milan-Pollution-Analysis/"> MilanPollution</a> ! Try the ShinyApp </p> 
+ <br>
+
 <h2> Installation</h2>
 
 ```R
 # first install the R package "devtools" if not installed
-devtools::install_github('unimi-dse/01a62bb0')
+devtools::install_github('andreaierardi/MilanPollution')
 ```
 
 <h2> Usage</h2>
