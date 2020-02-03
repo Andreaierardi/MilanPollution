@@ -3,6 +3,8 @@
 #=== Shiny App Server ===
 
 source(file.path("server", "checkdataset.R"))
+source(file.path("server", "restfullAPI.R"))
+
 shinyServer(function(input, output) {
 
 
