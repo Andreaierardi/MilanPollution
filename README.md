@@ -4,7 +4,7 @@
 <br>
   
  <h1> ShinyApp.io    </h1>
-<p>   <a href= "https://andreaierardi.shinyapps.io/Milan-Pollution-Analysis/"> MilanPollution</a> ! Try the ShinyApp </p> 
+<p>   <a href= "https://andreaierardi.shinyapps.io/Milan-Pollution-Analysis/"> MilanPollution</a> Try the ShinyApp </p> 
  <br>
 
 <h2> Installation</h2>
