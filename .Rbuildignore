@@ -1,2 +1,5 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
+^milanpollution\.Rcheck$
+^milanpollution.*\.tar\.gz$
+^milanpollution.*\.tgz$

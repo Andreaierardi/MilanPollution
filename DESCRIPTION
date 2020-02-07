@@ -3,7 +3,7 @@ Title: Milan Pollution Analysis
 Version: 1.0.0
 Author: Andrea Ierardi
 Maintainer: Andrea Ierardi <andreierardi@gmail.com>
-Description: Analysise the datas from the website of the Comune di Milano of different pollutants detected during the years from ARPA stations.
+Description: Analysis of the dataset from the website of the Comune di Milano of different pollutants detected during the years from ARPA stations.
 Imports: shiny, ggplot2, forecast, xts, ckanr, httr, jsonlite, tidyverse, plotly, TSplotly, shinycssloaders, hash
 License: GPL-3
 Type: Package

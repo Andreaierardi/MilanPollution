@@ -6,18 +6,23 @@
 #' then at the bottom of the page you will see "Informazioni supplementari" (Additional information) section.
 #' In this table there is the field ID (not packege id or revision id). [PS. CKAN API only supports csv files]\cr\cr
 #'
-#' Example of possible ID's from the "Rilevazione qualita' dell'aria" (Air Quality Detection):\cr
-#' Year 2019: "698a58e6-f276-44e1-92b1-3d2b81a4ad47" \cr
-#' Year 2018: "ea80c691-74bd-4356-94b6-0f446f190c0b" \cr
-#' Year 2017: "a032a06e-24c2-4df1-ac83-d001e9ddc577"
+#'
 #' @param id character. Identify the ID of the dataset. if \code{NULL} or not a valid ID for a dataset, return an error.
 #'
 #' @return data.frame
 #'
 #' @examples
-#' \dontrun{
-#' restfullAPI(id)
-#' }
+#'
+#' #ID's from the "Rilevazione qualita' dell'aria" (Air Quality Detection):\cr
+#' #Year 2019: "698a58e6-f276-44e1-92b1-3d2b81a4ad47" \cr
+#'    restfullAPI("698a58e6-f276-44e1-92b1-3d2b81a4ad47")
+#'
+#' #Year 2018: "ea80c691-74bd-4356-94b6-0f446f190c0b" \cr
+#'  restfullAPI("ea80c691-74bd-4356-94b6-0f446f190c0b")
+#'
+#' #Year 2017: "a032a06e-24c2-4df1-ac83-d001e9ddc577"
+#'  restfullAPI("a032a06e-24c2-4df1-ac83-d001e9ddc577")
+#'
 #' @export
 #'
 restfullAPI <- function(id = NULL)
