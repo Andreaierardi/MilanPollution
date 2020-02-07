@@ -5,6 +5,7 @@
 shinyServer(function(input, output) {
 
   source(file.path("server", "checkdataset.R"))
+  source(file.path("server", "restfullAPI.R"))
 
   h = hash::hash()
   h2 = hash::hash()
