@@ -5,10 +5,9 @@
   
  <h1> ShinyApp.io    </h1>
  <h2> Try the ShinyApp.io:  <a href= "https://andreaierardi.shinyapps.io/Milan-Pollution-Analysis/"> MilanPollution</a>   </h2>
+<br> 
 
 # Contributors :busts_in_silhouette:
-
-
 <h3 align="center"> Andrea Ierardi <h3>
   <a href="https://www.linkedin.com/in/andreaierardi/" rel="nofollow noreferrer">
     <img src="https://i.stack.imgur.com/gVE0j.png" alt="linkedin"> LinkedIn
