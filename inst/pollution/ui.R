@@ -4,6 +4,7 @@ shiny::shinyUI(fluidPage(
 
   #-- Load CSS --
   theme= "style.css",
+  tags$head( tags$meta(name = "viewport", content = "content=width=device-width, initial-scale=1.0")),
 
   #-- Div for the title panel --
   div(titlePanel(windowTitle="Milan pollution",h1("MILAN POLLUTION ANALYSIS",id="testa"))),
